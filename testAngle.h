@@ -142,6 +142,7 @@ private:
       double result;
       // exercise
       result = a.getDegrees();
+      cout << result;
       // verify
       assertValues(result,    90.0,     0.001);
       assertValues(a.radians, 1.570795, 0.001);
